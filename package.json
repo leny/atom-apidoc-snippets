@@ -1,6 +1,6 @@
 {
   "name": "apidoc-snippets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Snippets collection for API documentation with apidoc.",
   "repository": "https://github.com/leny/atom-apidoc-snippets",
   "license": "MIT",
