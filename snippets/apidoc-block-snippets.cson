@@ -1,0 +1,71 @@
+# apidoc block
+
+'.source.c,.source.cpp,.source.cs,.source.go,.source.java,.source.js,.source.dart,.source.objc,.source.objcpp,.text.html.php,.source.js.jsx,.source.swift,.source.ts,.source.tsx':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """/**
+ * @api {${1:get}} ${2:/url} ${3:[title]}
+ * @apiName ${4:uniqueName}
+ * @apiGroup ${5:group}
+ * $6
+ */"""
+
+'.source.coffee,.source.litcoffee,.source.coffee.jsx':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """###
+@api {${1:get}} ${2:/url} ${3:[title]}
+@apiName ${4:uniqueName}
+@apiGroup ${5:group}
+$6
+###"""
+
+'.source.elixir,.text.elixir,.text.html.elixir':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """@apidoc \"\"\"
+@api {${1:get}} ${2:/url} ${3:[title]}
+@apiName ${4:uniqueName}
+@apiGroup ${5:group}
+$6
+\"\"\""""
+
+'.source.erlang':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """%{
+% @api {${1:get}} ${2:/url} ${3:[title]}
+% @apiName ${4:uniqueName}
+% @apiGroup ${5:group}
+% $6
+%}"""
+
+'.source.perl,.source.perl6':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """#**
+# @api {${1:get}} ${2:/url} ${3:[title]}
+# @apiName ${4:uniqueName}
+# @apiGroup ${5:group}
+# $6
+#*"""
+
+'.source.python':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """\"\"\"
+@api {${1:get}} ${2:/url} ${3:[title]}
+@apiName ${4:uniqueName}
+@apiGroup ${5:group}
+$6
+\"\"\""""
+
+'.source.ruby':
+  'apidoc block':
+    'prefix': 'apd-block'
+    'body': """=begin
+@api {${1:get}} ${2:/url} ${3:[title]}
+@apiName ${4:uniqueName}
+@apiGroup ${5:group}
+$6
+=end"""

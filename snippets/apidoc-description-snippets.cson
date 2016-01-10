@@ -1,0 +1,6 @@
+# apidoc description
+
+'.source.c,.source.cpp,.source.cs,.source.go,.source.java,.source.js,.source.dart,.source.objc,.source.objcpp,.text.html.php,.source.js.jsx,.source.swift,.source.ts,.source.tsx,.source.coffee,.source.litcoffee,.source.coffee.jsx,.source.elixir,.text.elixir,.text.html.elixir,.source.erlang,.source.perl,.source.perl6,.source.python,.source.ruby':
+  'apidoc description':
+    'prefix': 'apd-description'
+    'body': '@apiDescription ${1:text}'

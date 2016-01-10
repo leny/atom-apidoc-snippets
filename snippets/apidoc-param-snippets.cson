@@ -1,0 +1,17 @@
+# apidoc param
+
+'.source.c,.source.cpp,.source.cs,.source.go,.source.java,.source.js,.source.dart,.source.objc,.source.objcpp,.text.html.php,.source.js.jsx,.source.swift,.source.ts,.source.tsx,.source.coffee,.source.litcoffee,.source.coffee.jsx,.source.elixir,.text.elixir,.text.html.elixir,.source.erlang,.source.perl,.source.perl6,.source.python,.source.ruby':
+  'apidoc param':
+    'prefix': 'apd-param'
+    'body': '@apiParam ${1:[(group)]} ${2:[{type}]} ${3:field}${4:=defaultValue} ${5:[description]}'
+
+'.source.c,.source.cpp,.source.cs,.source.go,.source.java,.source.js,.source.dart,.source.objc,.source.objcpp,.text.html.php,.source.js.jsx,.source.swift,.source.ts,.source.tsx,.source.coffee,.source.litcoffee,.source.coffee.jsx,.source.elixir,.text.elixir,.text.html.elixir,.source.erlang,.source.perl,.source.perl6,.source.python,.source.ruby':
+  'apidoc param':
+    'prefix': 'apd-param-opt'
+    'body': '@apiParam ${1:[(group)]} ${2:[{type}]} [${3:field}${4:=defaultValue}] ${5:[description]}'
+
+'.source.c,.source.cpp,.source.cs,.source.go,.source.java,.source.js,.source.dart,.source.objc,.source.objcpp,.text.html.php,.source.js.jsx,.source.swift,.source.ts,.source.tsx,.source.coffee,.source.litcoffee,.source.coffee.jsx,.source.elixir,.text.elixir,.text.html.elixir,.source.erlang,.source.perl,.source.perl6,.source.python,.source.ruby':
+  'apidoc param example':
+    'prefix': 'apd-param-example'
+    'body': """@apiParamExample ${1:[{type}]} ${2:[title]}
+                 ${3:example}"""
