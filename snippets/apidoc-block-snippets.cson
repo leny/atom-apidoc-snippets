@@ -4,11 +4,11 @@
   'apidoc block':
     'prefix': 'apd-block'
     'body': """/**
- * @api {${1:get}} ${2:/url} ${3:[title]}
- * @apiName ${4:uniqueName}
- * @apiGroup ${5:group}
- * $6
- */"""
+\ * @api {${1:get}} ${2:/url} ${3:[title]}
+\ * @apiName ${4:uniqueName}
+\ * @apiGroup ${5:group}
+\ * $6
+\ */"""
 
 '.source.coffee,.source.litcoffee,.source.coffee.jsx':
   'apidoc block':
